@@ -14,9 +14,9 @@ const styles = theme => ({
 class FeatureItem extends Component {
 
     render() {
-        const { classes, letter, name } = this.props;
+        const { classes, letter, name, hidden } = this.props;
 
-        return <div style={{ display: 'flex', alignItems: 'center' }}>
+        return <div style={{ display: hidden ? 'none' : 'flex', alignItems: 'center' }}>
             <Avatar aria-label="recipe" className={classes.avatarIcon} >
                 {letter}
             </Avatar>

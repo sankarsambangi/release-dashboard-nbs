@@ -57,6 +57,15 @@ class DetailsCard extends Component {
 
     getDetailsCard(props) {
         const { classes, details: { name, date, gateway, app, appVersion, gatewayVersion } } = this.props;
+        const formattedDate = (dateStr) => {
+            if(dateStr) {
+                const [day, month, year] = dateStr.split(/[-\/]/);
+                const options = { year: 'numeric', month: 'long', day: 'numeric' };
+                return new Date(year, month - 1, day).toLocaleDateString('en-GB', options);
+            }
+
+            return '';
+          }
         let rtlItems = this.getFeatureItemList(this.props);
 
         return (
@@ -69,15 +78,15 @@ class DetailsCard extends Component {
                     }
                     titleTypographyProps={{ variant: 'h5', noWrap: true }}
                     title={name}
-                    subheader={date} />
+                    subheader={formattedDate(date)} />
                 <CardContent hidden={!rtlItems}>
                     {rtlItems}
                 </CardContent>
 
                 <CardContent style={{ display: !!(appVersion || gatewayVersion) ? 'flex' : 'none', alignItems: 'center', justifyContent: 'space-between' }} hidden={true}>
 
-                    <FeatureItem letter='A' name={appVersion} />
-                    <FeatureItem letter='G' name={gatewayVersion} />
+                    <FeatureItem hidden={!app} letter='A' name={appVersion} />
+                    <FeatureItem hidden={!gateway} letter='G' name={gatewayVersion} />
                 </CardContent>
             </Card>
         )
