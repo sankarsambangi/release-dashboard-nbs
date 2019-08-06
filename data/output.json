@@ -1,0 +1,140 @@
+{
+    "Updated": "2019-07-05T14:33:13.872925+01:00",
+    "Stages": {
+        "Creating": [
+            {
+                "name": "20 (IB 48)",
+                "description": "",
+                "isMinor": false,
+                "isMajor": true,
+                "gateway": true,
+                "app": true, 
+                "features": []
+            },
+            {
+                "name": "R22 (IB 51)",
+                "description": "",
+                "isMinor": false,
+                "isMajor": false,
+                "gateway": false,
+                "app": false,
+                "features": []
+            }
+        ],
+        "Live": [
+            {
+                "name": "Release 27 hotfix",
+                "description": "",
+                "isMinor": true,
+                "isMajor": false,
+                "gateway": false,
+                "gatewayVersion": "3.10.1.1",
+                "app": true,
+                "appVersion": "6.6.4.16",
+                "date": "31/07/2019"
+                
+            },
+            {
+                "name": "Release 27 (R56)",
+                "description": "",
+                "isMinor": true,
+                "isMajor": false,
+                "gateway": true,
+                "gatewayVersion": "3.10.1.1",
+                "app": true,
+                "appVersion": "6.6.2.11",
+                "date": "29-07-2019"
+                
+            },
+            {
+                "name": "MaaF logging",
+                "description": "",
+                "isMinor": false,
+                "isMajor": true,
+                "gateway": false,
+                "gatewayVersion": "3.9.0.2",
+                "app": true,
+                "appVersion": "6.5.1.21"
+            },
+            {
+                "name": "Release 26 (R55)",
+                "description": "",
+                "isMinor": false,
+                "isMajor": true,
+                "gateway": true,
+                "gatewayVersion": "3.9.0.2",
+                "app": true,
+                "appVersion": "6.5.0.11"
+            }
+            
+        ],
+        "RTL": [
+            {
+                "name": "Release 28 (R57a)",
+                "description": "IDVA regulatory release",
+                "isMinor": false,
+                "isMajor": true,
+                "gateway": true,
+                "app": true,
+                "features": [
+                    "IDVA Enrolment",
+                    "IDVA Trusted Benificiary"
+                ]
+            },
+            {
+                "name": "Release 28 (R57b)",
+                "description": "OpenBanking reelase",
+                "isMinor": false,
+                "isMajor": false,
+                "gateway": true,
+                "app": true,
+                "features": [
+                    "IDVA Enrolment",
+                    "IDVA Trusted Benificiary"
+                ]
+            }
+        ],
+        "Scope agreed": [
+            {
+                "name": "A thing",
+                "description": "",
+                "isMinor": false,
+                "isMajor": false,
+                "gateway": false,
+                "app": false,
+                "features": []
+            }
+        ],
+        "Scoping": [
+            {
+                "name": "Moo",
+                "description": "",
+                "isMinor": false,
+                "isMajor": false,
+                "gateway": false,
+                "app": false,
+                "features": []
+            }
+        ],
+        "Voided": [
+            {
+                "name": "R16 (IB 44)",
+                "description": "",
+                "isMinor": false,
+                "isMajor": true,
+                "gateway": false,
+                "app": false,
+                "features": []
+            },
+            {
+                "name": "R17 (IB 45)",
+                "description": "",
+                "isMinor": false,
+                "isMajor": true,
+                "gateway": false,
+                "app": false,
+                "features": []
+            }
+        ]
+    }
+}

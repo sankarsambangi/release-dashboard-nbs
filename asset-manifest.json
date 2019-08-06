@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nbs-release-dashboard/static/css/main.34de6062.chunk.css",
+    "main.js": "/nbs-release-dashboard/static/js/main.9685a934.chunk.js",
+    "main.js.map": "/nbs-release-dashboard/static/js/main.9685a934.chunk.js.map",
+    "runtime~main.js": "/nbs-release-dashboard/static/js/runtime~main.c308af5e.js",
+    "runtime~main.js.map": "/nbs-release-dashboard/static/js/runtime~main.c308af5e.js.map",
+    "static/js/2.78b5a157.chunk.js": "/nbs-release-dashboard/static/js/2.78b5a157.chunk.js",
+    "static/js/2.78b5a157.chunk.js.map": "/nbs-release-dashboard/static/js/2.78b5a157.chunk.js.map",
+    "index.html": "/nbs-release-dashboard/index.html",
+    "precache-manifest.be181e26735a1e202bc68b4b0dd31a75.js": "/nbs-release-dashboard/precache-manifest.be181e26735a1e202bc68b4b0dd31a75.js",
+    "service-worker.js": "/nbs-release-dashboard/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/nbs-release-dashboard/static/css/main.34de6062.chunk.css.map"
+  }
+}
