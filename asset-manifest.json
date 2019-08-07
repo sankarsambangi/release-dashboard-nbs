@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nbs-release-dashboard/static/css/main.34de6062.chunk.css",
-    "main.js": "/nbs-release-dashboard/static/js/main.9685a934.chunk.js",
-    "main.js.map": "/nbs-release-dashboard/static/js/main.9685a934.chunk.js.map",
-    "runtime~main.js": "/nbs-release-dashboard/static/js/runtime~main.c308af5e.js",
-    "runtime~main.js.map": "/nbs-release-dashboard/static/js/runtime~main.c308af5e.js.map",
-    "static/js/2.78b5a157.chunk.js": "/nbs-release-dashboard/static/js/2.78b5a157.chunk.js",
-    "static/js/2.78b5a157.chunk.js.map": "/nbs-release-dashboard/static/js/2.78b5a157.chunk.js.map",
-    "index.html": "/nbs-release-dashboard/index.html",
-    "precache-manifest.be181e26735a1e202bc68b4b0dd31a75.js": "/nbs-release-dashboard/precache-manifest.be181e26735a1e202bc68b4b0dd31a75.js",
-    "service-worker.js": "/nbs-release-dashboard/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "/nbs-release-dashboard/static/css/main.34de6062.chunk.css.map"
+    "main.css": "/release-dashboard-nbs/static/css/main.34de6062.chunk.css",
+    "main.js": "/release-dashboard-nbs/static/js/main.c50d0688.chunk.js",
+    "main.js.map": "/release-dashboard-nbs/static/js/main.c50d0688.chunk.js.map",
+    "runtime~main.js": "/release-dashboard-nbs/static/js/runtime~main.615e12e0.js",
+    "runtime~main.js.map": "/release-dashboard-nbs/static/js/runtime~main.615e12e0.js.map",
+    "static/js/2.78b5a157.chunk.js": "/release-dashboard-nbs/static/js/2.78b5a157.chunk.js",
+    "static/js/2.78b5a157.chunk.js.map": "/release-dashboard-nbs/static/js/2.78b5a157.chunk.js.map",
+    "index.html": "/release-dashboard-nbs/index.html",
+    "precache-manifest.df0cd73a9a9fc807c5c44630f1a7db0f.js": "/release-dashboard-nbs/precache-manifest.df0cd73a9a9fc807c5c44630f1a7db0f.js",
+    "service-worker.js": "/release-dashboard-nbs/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/release-dashboard-nbs/static/css/main.34de6062.chunk.css.map"
   }
 }
