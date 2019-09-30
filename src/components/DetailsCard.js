@@ -32,7 +32,7 @@ class DetailsCard extends Component {
 
     getFeatureItemList(props) {
         if (props.details.features) {
-            return this.props.details.features.map((feature) => <FeatureItem letter='B' name={feature} />);
+            return this.props.details.features.map((feature) => <FeatureItem letter='-' name={feature} />);
         }
 
         return null;
@@ -59,7 +59,7 @@ class DetailsCard extends Component {
         const { classes, details: { name, date, gateway, app, appVersion, gatewayVersion } } = this.props;
         const formattedDate = (dateStr) => {
             if(dateStr) {
-                const [day, month, year] = dateStr.split(/[-\/]/);
+                const [day, month, year] = dateStr.split(/[-/]/);
                 const options = { year: 'numeric', month: 'long', day: 'numeric' };
                 return new Date(year, month - 1, day).toLocaleDateString('en-GB', options);
             }

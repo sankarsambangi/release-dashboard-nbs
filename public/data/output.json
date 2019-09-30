@@ -2,73 +2,47 @@
     "Updated": "2019-07-05T14:33:13.872925+01:00",
     "Stages": {
         "Creating": [
-            {
-                "name": "20 (IB 48)",
-                "description": "",
-                "isMinor": false,
-                "isMajor": true,
-                "gateway": true,
-                "app": true, 
-                "features": []
-            },
-            {
-                "name": "R22 (IB 51)",
-                "description": "",
-                "isMinor": false,
-                "isMajor": false,
-                "gateway": false,
-                "app": false,
-                "features": []
-            }
         ],
         "Live": [
             {
-                "name": "Release 27 (R56)",
-                "description": "",
+                "name": "Release 29 (R58)",
+                "description": "IDVA Day 1",
                 "isMinor": true,
                 "isMajor": false,
-                "gateway": false,
-                "gatewayVersion": "3.10.1.1",
+                "gateway": true,
+                "gatewayVersion": "4.1.2.0",
                 "app": true,
-                "appVersion": "6.6.2.11",
-                "date": "July 29, 2019"
+                "appVersion": "7.1.2.11",
+                "date": "19/09/2019"
                 
             },
             {
-                "name": "Release 26 (R55)",
-                "description": "",
-                "isMinor": false,
-                "isMajor": true,
+                "name": "Release 28 (R57)",
+                "description": "OB Sept",
+                "isMinor": true,
+                "isMajor": false,
                 "gateway": true,
-                "gatewayVersion": "3.9.1.1",
+                "gatewayVersion": "4.0.4.0",
                 "app": true,
-                "appVersion": "6.5.0.11"
+                "appVersion": "7.0.3.13",
+                "date": "11-09-2019"
+                
             }
             
         ],
         "RTL": [
             {
-                "name": "Release 28 (R57a)",
-                "description": "IDVA regulatory release",
+                "name": "Release 30 (R59)",
+                "description": "Misc",
                 "isMinor": false,
                 "isMajor": true,
                 "gateway": true,
                 "app": true,
                 "features": [
-                    "IDVA Enrolment",
-                    "IDVA Trusted Benificiary"
-                ]
-            },
-            {
-                "name": "Release 28 (R57b)",
-                "description": "OpenBanking reelase",
-                "isMinor": false,
-                "isMajor": false,
-                "gateway": true,
-                "app": true,
-                "features": [
-                    "IDVA Enrolment",
-                    "IDVA Trusted Benificiary"
+                    "New Member Credit Card",
+                    "CAPA",
+                    "STiP2",
+                    "Defect fixes"
                 ]
             }
         ],
